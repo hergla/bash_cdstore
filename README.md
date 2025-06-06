@@ -29,6 +29,7 @@ fi
 ```
 
 # Usage
+Shows only four entries, but you will get the last tweenty visited directories.  
 
 hergen@oel:/var/www/hergen $ c  
 0 - /var/www/hergen  
