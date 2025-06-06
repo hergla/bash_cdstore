@@ -16,13 +16,14 @@ sudo cp cdstore /usr/local/bin
 Add this to your .profile
 
 ```
-PS1='$(/usr/local/bin/cdstore -a)\u@\H;|w $ '
+PS1='$(/usr/local/bin/cdstore -a)\u@\H:\w $ '
 export PS1
 
-funnction c()
+function c()
 {
    dir=$(/usr/local/bin/cdstore 3>&1 1>&2 2>&3); cd $dir
 }
+
 ```
 
 
