@@ -28,4 +28,18 @@ fi
 
 ```
 
+# Usage
+
+hergen@oel:/var/www/hergen $ c
+0 - /var/www/hergen
+1 - /usr/bin
+2 - /var/tmp
+3 - /home/hergen
+Enter row number: 2
+hergen@oel:/var/tmp $ c
+0 - /var/tmp
+1 - /var/www/hergen
+2 - /usr/bin
+3 - /home/hergen
+Enter row number: 
 
