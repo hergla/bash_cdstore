@@ -41,5 +41,11 @@ hergen@oel:/var/tmp $ c
 1 - /var/www/hergen  
 2 - /usr/bin  
 3 - /home/hergen  
-Enter row number:   
-
+Enter row number: 2  
+hergen@oel:/usr/bin $ c  
+0 - /usr/bin  
+1 - /var/tmp  
+2 - /var/www/hergen  
+3 - /home/hergen  
+Enter row number:  
+hergen@oel:/usr/bin $  
