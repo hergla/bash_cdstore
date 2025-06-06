@@ -3,7 +3,7 @@ Store visited directories in sqlite3 db for reuse
 
 # Build:
 
-Building the binary and installing it, is a simple as that.
+Building the binary and installing it, is a simple as that. Or just use the Makefile.
 
 ```
 gcc -o cdstore cdstore.c -l sqlite3
