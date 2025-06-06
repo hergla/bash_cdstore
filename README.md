@@ -16,6 +16,7 @@ sudo cp cdstore /usr/local/bin
 Add this to your .profile
 
 ```
+if [[ -n "$PS1" ]]; then
 PS1='$(/usr/local/bin/cdstore -a)\u@\H:\w $ '
 export PS1
 
@@ -23,6 +24,7 @@ function c()
 {
    dir=$(/usr/local/bin/cdstore 3>&1 1>&2 2>&3); cd $dir
 }
+fi
 
 ```
 
